@@ -5,6 +5,12 @@ build/
 !**/src/test/**
 src/main/resources/application.properties
 
+# Libs
+1.9.23*
+
+logs
+indexes*
+
 ### STS ###
 .apt_generated
 .classpath

@@ -97,11 +97,11 @@ fun generateProperties(prefix: String = "") = """
     indexesJs.file=${prefix + indexesJs}
     indexesWasm.file=${prefix + indexesWasm}
     indexesComposeWasm.file=${prefix + indexesComposeWasm}
-    libraries.folder.jvm=${prefix + libJVMFolder}
-    libraries.folder.js=${prefix + libJSFolder}
-    libraries.folder.wasm=${prefix + libWasmFolder}
-    libraries.folder.compose-wasm=${prefix + libComposeWasmFolder}
-    libraries.folder.compose-wasm-compiler-plugins=${prefix + libComposeWasmCompilerPluginsFolder}
+    libraries.folder.jvm=${prefix + libJVMFolder.toString().replace('\\','/')}
+    libraries.folder.js=${prefix + libJSFolder.toString().replace('\\','/')}
+    libraries.folder.wasm=${prefix + libWasmFolder.toString().replace('\\','/')}
+    libraries.folder.compose-wasm=${prefix + libComposeWasmFolder.toString().replace('\\','/')}
+    libraries.folder.compose-wasm-compiler-plugins=${prefix + libComposeWasmCompilerPluginsFolder.toString().replace('\\','/')}
     spring.mvc.pathmatch.matching-strategy=ant_path_matcher
     server.compression.enabled=true
     server.compression.mime-types=application/json
