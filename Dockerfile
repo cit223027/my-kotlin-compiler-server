@@ -40,6 +40,8 @@ COPY --from=build /kotlin-compiler-server/indexesWasm.json /kotlin-compiler-serv
 
 ENV PORT=8080
 
+RUN ./gradlew dependencies
+
 CMD ["java", "-noverify", \
     "-Dserver.port=${PORT}", \
     "-cp", "/kotlin-compiler-server:/kotlin-compiler-server/lib/*", \
