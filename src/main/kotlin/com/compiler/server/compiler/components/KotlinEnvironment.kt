@@ -38,6 +38,11 @@ class KotlinEnvironmentConfiguration(
           "generateDecoys",
           "false"
         ),
+        CompilerPluginOption(
+          "androidx.compose.compiler.plugins.kotlin",
+          "suppressKotlinVersionCompatibilityCheck",
+          "true"
+        )
       )
     )
   }

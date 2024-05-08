@@ -7,6 +7,7 @@ src/main/resources/application.properties
 
 # Libs
 1.9.23*
+1.9.24*
 
 logs
 indexes*
