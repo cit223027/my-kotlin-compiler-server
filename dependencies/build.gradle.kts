@@ -113,7 +113,7 @@ dependencies {
     kotlinComposeWasmDependency("org.jetbrains.compose.animation:animation:1.6.0")
     kotlinComposeWasmDependency("org.jetbrains.compose.animation:animation-graphics:1.6.0")
     kotlinComposeWasmDependency("org.jetbrains.compose.foundation:foundation:1.6.0")
-    kotlinComposeWasmDependency("org.jetbrains.compose.material:material:1.6.0")
+    kotlinComposeWasmDependency("org.jetbrains.compose.material:material:1.6.11")
     kotlinComposeWasmDependency("org.jetbrains.compose.components:components-resources:1.6.0")
 
     composeWasmCompilerPlugins("org.jetbrains.compose.compiler:compiler-hosted:1.5.10")
