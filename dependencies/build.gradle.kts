@@ -59,7 +59,7 @@ val composeWasmCompilerPlugins: Configuration by configurations.creating {
 }
 
 
-val jacksonVersionKotlinDependencyJar = "2.14.0" // don't forget to update version in `executor.policy` file.
+val jacksonVersionKotlinDependencyJar = "2.17.1" // don't forget to update version in `executor.policy` file.
 
 val copyDependencies by tasks.creating(Copy::class) {
     from(kotlinDependency)
